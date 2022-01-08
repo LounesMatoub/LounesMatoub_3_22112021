@@ -1,0 +1,318 @@
+*{
+    font-family: 'Shrikhand',"cursive";
+    font-family: 'Roboto', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+}
+
+
+header
+{
+    .logo
+    {
+        img {
+            width: 200px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+    }
+    .lieux{
+        .gps-logo{
+            position: absolute;
+            right: 252px;
+            top: 90px;
+            bottom: 541px;
+            font-size: 20px;
+            left: 555px;
+        }
+    }
+}
+
+.entete
+{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-wrap: wrap;
+   background-color: whitesmoke;
+   padding-bottom: 40px;
+        .desc p
+        {
+        padding : 10px 20px;
+        flex-wrap: wrap;
+        flex-direction: row;
+                strong{
+                    font-size: 28px;
+                    padding-bottom: 0;
+                    padding-left: 15px;
+                        }
+        }
+            .explorer
+            {
+                display: flex;
+                justify-content: center;
+                width: 67%;
+                height: 45px;
+                border-radius: 100px;
+                background-color: #686868;
+                background-image: linear-gradient(0deg,#9356DC,#FF79DA);
+                font-weight: 500;
+                border-radius: 100px;
+                color: white;
+                padding: 1px;
+                opacity : 1;
+                box-shadow: .25rem .25rem 10px rgba(0,0,0,.5);
+                p{
+                    margin-top: 13px;
+                }
+        }
+
+            .explorer:hover{
+                cursor: pointer;
+                opacity: 0.8;
+                background-color: #fff;
+                box-shadow: .25rem .25rem 10px rgba(0,0,0,.5);
+              }
+
+    
+}
+#fonctionnement{
+    margin-top: 40px;
+}
+
+.titrefonction
+{
+    margin-left: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.filtres{
+    display: flex;
+    justify-content: space-evenly;
+}
+.choisis , .compose , .deguste
+{
+    height: 60px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,.125);
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    display: flex;
+    position: relative;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-left: -10px;
+    margin-top: 16px;
+    padding-right: 20px;
+}
+.choisis:hover{
+    cursor: pointer;
+    background-color: #e2dbfd;
+    .filtre-logo{
+        color: blue;
+    }
+}
+.deguste:hover{
+    cursor: pointer;
+    background-color: #e2dbfd;
+    .filtre-logo{
+        color: blue;
+    }
+}.compose:hover{
+    cursor: pointer;
+    background-color: #e2dbfd;
+    .filtre-logo{
+        color: blue;
+    }
+}
+
+.filtres p
+{
+    margin-left: 30px;
+}
+.filtre-logo
+{
+    position:absolute;
+    top: 26px;
+    left: 20px;
+    color: #7e7e7e;
+}
+
+.container
+{ 
+    height: 900px;
+        .cards
+        {
+                margin-left: 40px;
+                border: 3px solid white;
+                border-radius: 10px;
+                padding: 0;
+                background-color: white;
+                margin-bottom: 28px;
+                float: left;
+                box-shadow: 0 0 11px #b6b6b6; 
+                border-width:0px;
+                font-style: normal;
+                margin-bottom: -20px;
+            }
+            img{
+                object-fit: cover;
+                width: 550px;
+                height: 300px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+}
+.alafrancaise{
+  margin-top: 65px;
+}
+.nouveau{
+  left: 480px;
+    margin-top: -190px;
+    padding-top: 10px;
+        }
+      .nouveau2{
+        left: 1117px;
+        top: 745px;
+        }
+
+.coeur p{
+    left: 530px;
+    
+}
+
+.coeur p:hover{
+  cursor: pointer;
+  .coeur1{display: none;
+  }
+  .coeur2{
+    display: block;
+  }
+  .coeur p:focus{
+      cursor: pointer;
+      .coeur1{display: none;
+      }
+      .coeur2{
+        display: block;
+      }
+}
+}
+
+.fa-utensils .fa-hands-helping{
+  padding-right: 10px ;
+}
+    
+    #hideMe {
+      -moz-animation: cssAnimation 0s ease-in 1s forwards;
+      /* Firefox */
+      -webkit-animation: cssAnimation 0s ease-in 1s forwards;
+      /* Safari and Chrome */
+      /*   Mangesh Jadhav */
+      -o-animation: cssAnimation 0s ease-in 1s forwards;
+      /* Opera */
+      animation: cssAnimation 0s ease-in 1s forwards;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      background: transparent;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height:100%;
+      z-index: 2000;
+    }
+    
+    @keyframes cssAnimation {
+      to {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+      }
+    }
+    
+    @-webkit-keyframes cssAnimation {
+      to {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+      }
+    }
+    
+    
+    /* loader 1 css */
+    
+    .loader,
+    .loader:before,
+    .loader:after {
+      border-radius: 100%;
+    }
+    
+    .loader:before,
+    .loader:after {
+      position: absolute;
+      content: '';
+    }
+    
+    .loader:before {
+      width: 5.2em;
+      height: 10.2em;
+      background: transparent;
+      border-radius: 10em 0 0 10em;
+      top: -0.1em;
+      left: -0.1em;
+      /*   Mangesh Jadhav */
+      -webkit-transform-origin: 5.2em 5.1em;
+      transform-origin: 5.2em 5.1em;
+      -webkit-animation: load2 2s infinite ease 1.5s;
+      animation: load2 2s infinite ease 1.5s;
+    }
+    
+    .loader {
+      font-size: 11px;
+      text-indent: -99999em;
+      margin: 55px auto;
+      position: relative;
+      width: 10em;
+      height: 10em;
+      box-shadow: inset 0 0 0 1em #FF79DA;
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+    
+    .loader:after {
+      width: 2.2em;
+      height: 2.2em;
+      background: #9356DC;
+      border-radius: 5em 5em;
+      top: -0.1em;
+      left: 5.1em;
+      -webkit-transform-origin: 0px 5.1em;
+      transform-origin: 0px 5.1em;
+      -webkit-animation: load2 1.5s infinite ease;
+      animation: load2 1.5s infinite ease;
+    }
+    @-webkit-keyframes load2 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      
+      @keyframes load2 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    }

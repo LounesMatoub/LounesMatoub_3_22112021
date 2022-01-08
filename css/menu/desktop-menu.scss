@@ -1,0 +1,369 @@
+*{
+    font-family: 'Shrikhand',"cursive";
+    font-family: 'Roboto', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+}
+
+@media screen and (min-width: 992px) /* TABLETTE */
+{
+header
+{
+   height: 90px;
+   h1{
+    font-family: 'Shrikhand',"cursive";
+        @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    }
+           
+        }
+
+      .retour {
+        margin-top: -85px;
+        margin-left: 30px;
+                p{
+                    font-size: 26px;
+                }
+                    a{
+                         color: black;
+                    }
+                }
+#back_photo
+        {
+            img{
+                width: 1263px;
+                height: 300px;
+                box-shadow: 4px 4px 8px rgba(0,0,0,.125);
+                object-fit: cover;
+              
+            }
+        }
+
+        .coeur p{
+          position: relative;
+          bottom:105px;
+          font-size: 24px;
+          width: 27px;
+          width: 0px;
+          height: 0px;
+          top:-55px;
+          left: 850px;
+          .coeur2 {
+            display: none;
+            background-color: #9356DC;
+            color: #9356DC
+          }
+        }
+        .coeur p:hover{
+          cursor: pointer;
+          .coeur1{display: none;
+          }
+          .coeur2{
+            display: block;
+          }
+          .coeur p:focus{
+              cursor: pointer;
+              .coeur1{display: none;
+              }
+              .coeur2{
+                display: block;
+        
+              }
+        }
+        }
+
+        #corps
+        {
+          width: 73%;
+          height: 100%;
+          position: relative;
+          z-index: 1000;
+          margin-bottom: -160px;
+          padding-top: 0px;
+          padding-bottom: 170px;
+          top: -100px;
+          left: 190px;
+          .contenu_corps {   
+            margin-left: 20px;
+            padding-top: 20px;
+            width: 903.133px;
+            .titre_corps
+            {
+                font-family: 'Shrikhand',"cursive";
+                @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+                font-size: 24px;
+                .fa-heart{
+                  padding-left: 120px;
+                }
+            }
+        
+            .titre_coeur{
+              position: relative;
+            }
+          }
+          .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            cursor: pointer;
+            .titre {
+              padding-left: 20px;
+              padding-top: 10px;
+            }
+            .sous_titre {
+              padding-left: 20px;
+              margin-top: 5px;
+        
+            }
+            .prix {
+              margin-right: 8px;
+              margin-top: 0px;
+            }
+            &:hover {
+              .myAnim {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #F2F2F2;
+              }
+            }
+          }
+        }
+        .subContent {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+        }
+        .content-first {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+        .myAnim {
+          display: none;
+          height: 100%;
+          width: 23%;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          background-color: #99e2d0;
+          animation: slidein 1s;
+        }
+            @keyframes slidein {
+              from {
+                width: 0%;
+              }
+              to {
+                width: 23%;
+              }
+            }
+            .rot360 {
+              animation: rot360 1s;
+            }
+            @keyframes rot360 {
+              from { 
+                transform: rotate(0deg); 
+              } to { 
+                transform: rotate(360deg); 
+              }
+            }
+          }
+.commander
+{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 45px;
+        border-radius: 100px;
+        background-image: linear-gradient(0deg,#9356DC,#FF79DA);
+        color: #FFF;
+        position: absolute;
+        z-index: 1000;
+        bottom: -215px;
+        left: 446px;
+        width: 25%;
+        left: 490px;
+        box-shadow: .25rem .25rem 10px rgba(0,0,0,.5);
+        top: 1283px;
+        
+            p {
+                font-size: 20px;
+                margin-top: 10px;
+                display: flex;
+                align-content: center;
+            }
+}
+
+          .commander:hover{
+            cursor: pointer;
+            opacity: 0.8;
+            background-color: #fff;
+            box-shadow: .25rem .25rem 10px rgba(0,0,0,.5);
+          } 
+
+.commander2
+{
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        height: 45px;
+        border-radius: 100px;
+        background-image: linear-gradient(0deg,#9356DC,#FF79DA);
+        color: #FFF;
+        position: absolute;
+        z-index: 1000;
+        bottom: -640.633px;
+        top: 1369px;
+        left: 470.75px;
+        p {
+            font-size: 20px;
+            margin-top: 10px;
+            display: flex;
+            align-content: center;
+        }
+    }
+
+    
+#footer_contain
+{
+    margin-left:-10px;
+}
+footer{
+    background-color: #353535;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+        .logo_foot
+        {
+            width: 100px;
+            color : white;
+            margin-left: 40px;
+            p{
+                padding-top: 15px;
+                font-family: 'Shrikhand',"cursive";
+            @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+            }
+           
+    }
+ul{
+  list-style-type:none;
+  line-height: 2;
+        a{
+        text-decoration: none;
+        color: white;
+    }   
+}
+}
+
+
+#hideMe {
+  -moz-animation: cssAnimation 0s ease-in 1s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 1s forwards;
+  /* Safari and Chrome */
+  /*   Mangesh Jadhav */
+  -o-animation: cssAnimation 0s ease-in 1s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 1s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  background: transparent;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  z-index: 2000;
+}
+
+@keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+@-webkit-keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+}
+
+
+/* loader 1 css */
+
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 100%;
+}
+
+.loader:before,
+.loader:after {
+  position: absolute;
+  content: '';
+}
+
+.loader:before {
+  width: 5.2em;
+  height: 10.2em;
+  background: transparent;
+  border-radius: 10em 0 0 10em;
+  top: -0.1em;
+  left: -0.1em;
+  /*   Mangesh Jadhav */
+  -webkit-transform-origin: 5.2em 5.1em;
+  transform-origin: 5.2em 5.1em;
+  -webkit-animation: load2 2s infinite ease 1.5s;
+  animation: load2 2s infinite ease 1.5s;
+}
+
+.loader {
+  font-size: 11px;
+  text-indent: -99999em;
+  margin: 55px auto;
+  position: relative;
+  width: 10em;
+  height: 10em;
+  box-shadow: inset 0 0 0 1em #FF79DA;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.loader:after {
+  width: 2.2em;
+  height: 2.2em;
+  background: #9356DC;
+  border-radius: 5em 5em;
+  top: -0.1em;
+  left: 5.1em;
+  -webkit-transform-origin: 0px 5.1em;
+  transform-origin: 0px 5.1em;
+  -webkit-animation: load2 1.5s infinite ease;
+  animation: load2 1.5s infinite ease;
+}
+@-webkit-keyframes load2 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes load2 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }

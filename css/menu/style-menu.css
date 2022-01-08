@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @media screen and (max-width: 790px) {
   * * {
     font-family: 'Roboto', sans-serif;
@@ -19,214 +18,240 @@
     background-color: white;
     height: 90px;
   }
-  header h1 {
-    font-family: 'Shrikhand',"cursive";
-  }
-  .retour {
-    margin-top: -85px;
-    margin-left: 30px;
-  }
-  .retour p {
-    font-size: 26px;
-  }
-  .retour a {
-    color: black;
-  }
-  #back_photo img {
-    width: 375px;
-    height: 300px;
-    -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
-            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .commander {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 50%;
-    height: 45px;
-    border-radius: 100px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
-    background-image: linear-gradient(0deg, #9356DC, #FF79DA);
-    color: #FFF;
-    position: absolute;
-    z-index: 1000;
-    left: 93.75px;
-    top: 1275.97px;
-    bottom: -640.633px;
-    -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
-            box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
-  }
-  .commander p {
-    font-size: 20px;
-    margin-top: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
-  #corps {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: #F2F2F2;
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 32px;
-    border-top-right-radius: 32px;
-    position: relative;
-    z-index: 1000;
-    margin-bottom: -160px;
-    padding-top: 0px;
-    padding-bottom: 170px;
-    top: -100px;
-  }
-  #corps .contenu_corps {
-    margin-left: 20px;
-    padding-top: 20px;
-  }
-  #corps .contenu_corps .titre_corps {
-    font-family: 'Shrikhand',"cursive";
-    font-size: 24px;
-  }
-  #corps .contenu_corps .titre_corps .fa-heart {
-    padding-left: 120px;
-  }
-  #corps .contenu_corps .titre_coeur {
-    position: relative;
-  }
-  #corps .content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    height: 60px;
-    -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
-    border-radius: 10px;
-    background-color: white;
-    position: relative;
-    margin-top: 20px;
-    margin-right: 15px;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    cursor: pointer;
-  }
-  #corps .content .titre {
-    padding-left: 20px;
+  header img {
+    width: 200px;
     padding-top: 10px;
+    padding-bottom: 5px;
   }
-  #corps .content .sous_titre {
-    padding-left: 20px;
-    margin-top: 5px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    max-width: 230.333px;
-    white-space: nowrap;
+}
+
+.retour {
+  margin-top: -85px;
+  margin-left: 30px;
+}
+
+.retour p {
+  font-size: 26px;
+}
+
+.retour a {
+  color: black;
+}
+
+#back_photo img {
+  width: 375px;
+  height: 300px;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.commander {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 45px;
+  border-radius: 100px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+  color: #FFF;
+  position: absolute;
+  z-index: 1000;
+  left: 93.75px;
+  top: 1275.97px;
+  bottom: -640.633px;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+}
+
+.commander p {
+  font-size: 20px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#corps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #F2F2F2;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  position: relative;
+  z-index: 1000;
+  margin-bottom: -160px;
+  padding-top: 0px;
+  padding-bottom: 170px;
+  top: -100px;
+}
+
+#corps .contenu_corps {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#corps .contenu_corps .titre_corps {
+  font-family: 'Shrikhand',"cursive";
+  font-size: 24px;
+}
+
+#corps .contenu_corps .titre_corps .fa-heart {
+  padding-left: 120px;
+}
+
+#corps .contenu_corps .titre_coeur {
+  position: relative;
+}
+
+#corps .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60px;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 15px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  cursor: pointer;
+}
+
+#corps .content .titre {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#corps .content .sous_titre {
+  padding-left: 20px;
+  margin-top: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 230.333px;
+  white-space: nowrap;
+}
+
+#corps .content .prix {
+  margin-right: 8px;
+  margin-top: 0px;
+}
+
+#corps .content:hover .myAnim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.subContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.content-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.myAnim {
+  display: none;
+  height: 100%;
+  width: 23%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #99e2d0;
+  -webkit-animation: slidein 1s;
+          animation: slidein 1s;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    width: 0%;
   }
-  #corps .content .prix {
-    margin-right: 8px;
-    margin-top: 0px;
-  }
-  #corps .content:hover .myAnim {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    color: white;
-  }
-  .subContent {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 100%;
-  }
-  .content-first {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-  }
-  .myAnim {
-    display: none;
-    height: 100%;
+  to {
     width: 23%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: #99e2d0;
-    -webkit-animation: slidein 1s;
-            animation: slidein 1s;
   }
-  @-webkit-keyframes slidein {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 23%;
-    }
+}
+
+@keyframes slidein {
+  from {
+    width: 0%;
   }
-  @keyframes slidein {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 23%;
-    }
+  to {
+    width: 23%;
   }
-  .rot360 {
-    -webkit-animation: rot360 1s;
-            animation: rot360 1s;
+}
+
+.rot360 {
+  -webkit-animation: rot360 1s;
+          animation: rot360 1s;
+}
+
+@-webkit-keyframes rot360 {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
-  @-webkit-keyframes rot360 {
-    from {
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
-    }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
-  @keyframes rot360 {
-    from {
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
-    }
+}
+
+@keyframes rot360 {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 

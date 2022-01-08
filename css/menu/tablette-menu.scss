@@ -13,10 +13,14 @@
        align-items: center;
        background-color: white;
        height: 90px;
-            h1{
-              font-family: 'Shrikhand',"cursive";
-                  @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-              }
+    }
+    .logo{
+      img{
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+      }
+}
       
                
             }
@@ -185,7 +189,7 @@
                     transform: rotate(360deg); 
                   }
                 }
-              }
+              
             
           
           

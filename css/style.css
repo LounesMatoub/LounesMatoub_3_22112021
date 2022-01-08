@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 * {
   font-family: 'Shrikhand',"cursive";
   font-family: 'Roboto', sans-serif;
@@ -34,8 +33,10 @@ header .logo {
   width: 100%;
 }
 
-header .logo h1 {
-  font-family: 'Shrikhand',"cursive";
+header .logo img {
+  width: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 header .lieux {

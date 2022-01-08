@@ -18,9 +18,10 @@ header
         box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
         z-index: 1000;
         width: 100%;
-        h1{
-        font-family: 'Shrikhand',"cursive";
-            @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+        img {
+            width: 200px;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
 
     }

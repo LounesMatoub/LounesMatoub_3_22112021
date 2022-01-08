@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 * {
   font-family: 'Shrikhand',"cursive";
   font-family: 'Roboto', sans-serif;
@@ -11,9 +10,6 @@
 @media screen and (min-width: 992px) {
   header {
     height: 90px;
-  }
-  header h1 {
-    font-family: 'Shrikhand',"cursive";
   }
   .retour {
     margin-top: -85px;

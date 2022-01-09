@@ -387,7 +387,8 @@ footer ul a {
   animation: cssAnimation 0s ease-in 1s forwards;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  background: transparent;
+  background: whitesmoke;
+  opacity: 0.9;
   overflow: hidden;
   position: absolute;
   top: 0;

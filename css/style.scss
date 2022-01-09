@@ -284,7 +284,6 @@ header
         }
         .coeur2{
           display: block;
-
         }
 }
 }
@@ -344,9 +343,10 @@ ul{
     animation: cssAnimation 0s ease-in 1s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    background: transparent;
+    background: whitesmoke;
     overflow: hidden;
     position: absolute;
+    opacity: 0.9;
     top: 0;
     left: 0;
     width: 100%;

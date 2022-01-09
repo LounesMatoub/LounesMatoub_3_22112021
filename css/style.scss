@@ -267,7 +267,6 @@ header
     top:-55px;
     .coeur2 {
       display: none;
-      background: linear-gradient(70deg, blue, pink);
       color: #9356DC
     }
 }
@@ -343,10 +342,9 @@ ul{
     animation: cssAnimation 0s ease-in 1s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    background: whitesmoke;
+    background: transparent;
     overflow: hidden;
     position: absolute;
-    opacity: 0.9;
     top: 0;
     left: 0;
     width: 100%;

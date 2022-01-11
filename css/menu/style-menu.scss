@@ -121,7 +121,6 @@
       margin-top: 5px;
       text-overflow: ellipsis;
       overflow: hidden;
-      max-width: 230.333px;
       white-space: nowrap;
 
     }
@@ -139,6 +138,7 @@
     }
   }
 }
+
 .subContent {
   display: flex;
   justify-content: space-between;
@@ -148,6 +148,9 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
 }
 .myAnim {
   display: none;
@@ -328,120 +331,3 @@ ul{
   }
 
 }
-
-
-
-
-#hideMe {
-  -moz-animation: cssAnimation 0s ease-in 1s forwards;
-  /* Firefox */
-  -webkit-animation: cssAnimation 0s ease-in 1s forwards;
-  /* Safari and Chrome */
-  /*   Mangesh Jadhav */
-  -o-animation: cssAnimation 0s ease-in 1s forwards;
-  /* Opera */
-  animation: cssAnimation 0s ease-in 1s forwards;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  background: transparent;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height:100%;
-  z-index: 2000;
-}
-
-@keyframes cssAnimation {
-  to {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-  }
-}
-
-@-webkit-keyframes cssAnimation {
-  to {
-    width: 0;
-    height: 0;
-    visibility: hidden;
-  }
-}
-
-
-/* loader 1 css */
-
-.loader,
-.loader:before,
-.loader:after {
-  border-radius: 100%;
-}
-
-.loader:before,
-.loader:after {
-  position: absolute;
-  content: '';
-}
-
-.loader:before {
-  width: 5.2em;
-  height: 10.2em;
-  background: transparent;
-  border-radius: 10em 0 0 10em;
-  top: -0.1em;
-  left: -0.1em;
-  /*   Mangesh Jadhav */
-  -webkit-transform-origin: 5.2em 5.1em;
-  transform-origin: 5.2em 5.1em;
-  -webkit-animation: load2 2s infinite ease 1.5s;
-  animation: load2 2s infinite ease 1.5s;
-}
-
-.loader {
-  font-size: 11px;
-  text-indent: -99999em;
-  margin: 55px auto;
-  position: relative;
-  width: 10em;
-  height: 10em;
-  box-shadow: inset 0 0 0 1em #FF79DA;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-}
-
-.loader:after {
-  width: 2.2em;
-  height: 2.2em;
-  background: #9356DC;
-  border-radius: 5em 5em;
-  top: -0.1em;
-  left: 5.1em;
-  -webkit-transform-origin: 0px 5.1em;
-  transform-origin: 0px 5.1em;
-  -webkit-animation: load2 1.5s infinite ease;
-  animation: load2 1.5s infinite ease;
-}
-@-webkit-keyframes load2 {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-}
-  
-  @keyframes load2 {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-    

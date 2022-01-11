@@ -54,11 +54,16 @@ header .lieux {
 }
 
 header .lieux .gps-logo {
-  position: absolute;
-  right: 252px;
-  top: 90px;
-  bottom: 541px;
-  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 10px;
 }
 
 .entete {

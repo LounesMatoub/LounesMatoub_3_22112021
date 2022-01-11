@@ -4,6 +4,8 @@
     @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 }
+@media screen and (min-width: 990px) /* TABLETTE */
+{
 header
 {
    height: 90px;
@@ -53,7 +55,7 @@ header
           .coeur2{
             display: block;
           }
-          .coeur p:focus{
+          .coeur p:active{
               cursor: pointer;
               .coeur1{display: none;
               }
@@ -360,3 +362,4 @@ ul{
       transform: rotate(360deg);
     }
   }
+}

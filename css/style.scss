@@ -34,11 +34,11 @@ header
         width: 100%;
         font-weight: 700;
         .gps-logo{
-            position: absolute;
-            right: 252px;
-            top: 90px;
-            bottom: 541px;
-            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 10px;
+
         }
     }
 }
